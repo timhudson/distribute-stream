@@ -1,0 +1,27 @@
+{
+  "name": "distribute-stream",
+  "version": "1.0.0",
+  "description": "Distribute chunks between multiple write streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timhudson/distribute-stream.git"
+  },
+  "author": "Tim Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timhudson/distribute-stream/issues"
+  },
+  "homepage": "https://github.com/timhudson/distribute-stream",
+  "dependencies": {
+    "readable-stream": "^1.0.31"
+  },
+  "devDependencies": {
+    "JSONStream": "^0.9.0",
+    "hyperquest": "^0.3.0",
+    "ldjson-stream": "^1.2.1"
+  }
+}
