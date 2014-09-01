@@ -1,5 +1,4 @@
 var distributeStream = require('./')
-var fs = require('fs')
 var http = require('http')
 var hyperquest = require('hyperquest')
 var JSONStream = require('JSONStream')
